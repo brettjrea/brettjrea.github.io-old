@@ -1,5 +1,5 @@
 <header>
-<nav>
+<nav id="mySidenav" class="sidenav" style="width:0px">
   <ul>
     {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
     {% for p in navigation_pages %}
@@ -12,6 +12,5 @@
       {% endif %}
     {% endfor %}
   </ul>
-</nav>
-      <h1>{{ page.title }}</h1>
-  </header>
+</nav>   
+</header>

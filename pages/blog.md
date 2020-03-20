@@ -1,10 +1,10 @@
 ---
-title: blog
+title: Blog
 layout: default
 permalink: /blog/
 navigation_weight: 3
 ---
-
+<section id="myLoop" class="loop">
 <ul>
     {% for post in site.posts %}
       <li>
@@ -12,4 +12,5 @@ navigation_weight: 3
         {{ post.excerpt }}
       </li>
     {% endfor %}
-  </ul>
+</ul>
+</section>

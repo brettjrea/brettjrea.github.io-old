@@ -1,0 +1,128 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+@import url('https://fonts.googleapis.com/css?family=Baloo+2&display=swap');
+
+html {
+  --bg: #fafbfc;
+  --bg-secondary: #fff;
+  --headings: #24292E;
+  --text: #586069;
+  --link: #2B2B2B;
+
+}
+
+html[data-theme='dark'] {
+  --bg: #333;
+  --bg-secondary: #444;
+  --headings: #ddd;
+  --text: #ddd;
+  --link: #fc0;
+} 
+
+html.transition,
+html.transition *,
+html.transition *:before,
+html.transition *:after {
+  transition: all 650ms !important;
+  transition-delay: 0 !important;
+}
+
+.theme-toggle {
+float: right;
+padding: 8px 8px 8px 32px;
+text-decoration: none;
+border: none; 
+outline: none;
+font-size: 1.5rem;
+display: block;
+transition: 0.3s;
+}
+
+/***/
+body {
+  background-color: var(--bg);
+  font-family: 'Baloo 2', cursive, Arial, Helvetica, sans-serif;
+}
+
+.container {
+  background-color: var(--bg-secondary);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--headings);
+}
+
+p, strong, b, em, span, code, small {
+  color: var(--text);
+}
+
+a {
+  color: var(--link);
+}
+
+/* The side navigation menu */
+
+.sidenav {
+height: 100%; /* 100% Full-height */
+width: 0px; /* 0 width - change this with JavaScript */
+position: fixed; /* Stay in place */
+z-index: 1; /* Stay on top */
+top: 0; /* Stay at the top */
+left: 0;
+background-color: #2B2B2b; /* Black*/
+overflow-x: hidden; /* Disable horizontal scroll */
+padding-top: 60px; /* Place content 60px from the top */
+transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+.sidenav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* The navigation menu links */
+.sidenav a {
+padding: 8px 8px 8px 32px;
+text-decoration: none;
+font-size: 1.5rem;
+color: #818181;
+display: block;
+transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+color: #f1f1f1;
+}
+
+.sidenav-toggle {
+left: 0px;
+margin-left: 0px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#myContent {
+transition: margin-left .5s;
+padding: 20px;
+}
+
+#myLoop {
+  transition: margin-left .5s;
+  padding: 20px;
+  }
+
+.loop ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+.sidenav {padding-top: 15px;}
+.sidenav a {font-size: 18px;}
+}
+/***/
