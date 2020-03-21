@@ -33,14 +33,14 @@ function toggleNav() {
     var x = document.getElementById("mySidenav").style;
     var y = document.getElementById("myContent").style;
     
-    if (x.width == "0px")
+    if (x.width == "0vw")
     {
-        x.width = "12.5em";
-        y.marginLeft = "12.5em";
+        x.width = "20vw";
+        y.marginLeft = "20vw";
     }
     else 
     {
-        x.width = "0px";
-        y.marginLeft = "0px";
+        x.width = "0vw";
+        y.marginLeft = "0vw";
     }
 }
