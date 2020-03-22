@@ -3,21 +3,20 @@
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
-    <script src="/assets/js/scripts.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/turbolinks/5.2.0/turbolinks.js"></script>
     <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}" />
     <script src="https://kit.fontawesome.com/4e59dcedf0.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/turbolinks/5.2.0/turbolinks.js"></script>
   </head>
   <body>
       {% include header.html %}
     <section id="myContent" class="grid-container">
 
     <div class="grid-item item1">
-    <span onclick="toggleNav()" class="fas fa-bars fa-fw sidenav-toggle"></span> 
+    <span onmouseover="toggleNav()" onclick="toggleNav()" class="fas fa-bars fa-fw sidenav-toggle"></span> 
     </div>
 
     <div class="grid-item item2">
-    <span class="fas fa-adjust fa-fw theme-toggle"></span>
+    <span onmouseover="themeChange()" class="fas fa-adjust fa-fw theme-toggle"></span>
     </div>
 
     <div class="grid-item item3">

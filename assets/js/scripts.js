@@ -44,3 +44,53 @@ function toggleNav() {
         y.marginLeft = "0vw";
     }
 }
+
+// Touch sidenav
+var container = document.querySelector("#myContent");
+
+    container.addEventListener("touchstart", startTouch, false);
+    container.addEventListener("touchmove", moveTouch, false);
+
+    // Swipe Up / Down / Left / Right
+    var initialX = null;
+    var initialY = null;
+
+    function startTouch(e) {
+      initialX = e.touches[0].clientX;
+      initialY = e.touches[0].clientY;
+    };
+
+    function moveTouch(e) {
+      if (initialX === null) {
+        return;
+      }
+
+      if (initialY === null) {
+        return;
+      }
+
+      var currentX = e.touches[0].clientX;
+      var currentY = e.touches[0].clientY;
+
+      var diffX = initialX - currentX;
+      var diffY = initialY - currentY;
+
+      if (Math.abs(diffX) > Math.abs(diffY)) {
+        // sliding horizontally
+        if (diffX > 0) {
+          // swiped left
+          document.getElementById("mySidenav").style.width = "0vw";
+          document.getElementById("myContent").style.marginLeft = "0vw";
+          console.log("swiped left");
+        } else {
+          // swiped right
+          document.getElementById("mySidenav").style.width = "20vw";
+          document.getElementById("myContent").style.marginLeft = "20vw";
+          console.log("swiped right");
+        }  
+      } 
+      initialX = null;
+      initialY = null;
+      
+      e.preventDefault();
+    };
