@@ -46,8 +46,6 @@ html.transition *:after {
 body {
   background-color: var(--bg);
   font-family: 'Baloo 2', cursive, Arial, Helvetica, sans-serif;
-  touch-action: none;
-  overscroll-behavior-y: contain;
 }
 
 .container {
