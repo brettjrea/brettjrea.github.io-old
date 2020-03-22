@@ -11,15 +11,18 @@
       {% include header.html %}
     <section id="myContent" class="grid-container">
 
-    <div class="grid-item item1">
-    <span onmouseover="toggleNav()" onclick="toggleNav()" class="fas fa-bars fa-fw sidenav-toggle"></span> 
+    <div onmouseover="toggleNav()" class="grid-item item1">
+    <span onclick="toggleNav()" class="fas fa-bars fa-fw sidenav-toggle"></span> 
     </div>
 
     <div class="grid-item item2">
-    <span class="fas fa-adjust fa-fw theme-toggle"></span>
+    <span class="theme-toggle fas fa-adjust fa-fw"></span>
     </div>
 
-    <div class="grid-item item3">
+    <div onmouseover="toggleNav()" class="grid-item item3">
+    </div>
+
+    <div class="grid-item item4">
       {{ content }}
     </div>
 

@@ -28,6 +28,10 @@ html.transition *:after {
   transition: all 650ms !important;
   transition-delay: 0 !important;
 }
+.theme-toggle {
+  float: right;
+  padding: 2vh 2vw 2vh 2vw;
+}
 
 .grid-container {
   display: grid;
@@ -42,6 +46,10 @@ html.transition *:after {
 .item3 {
   grid-row: 2;
 }
+.item4 {
+  grid-row: 2;
+}
+
 /***/
 body {
   background-color: var(--bg);
@@ -103,11 +111,6 @@ color: #f1f1f1;
 .sidenav-toggle {
 float:left;
 padding: 2vh 2vw 2vh 2vw;
-}
-
-.theme-toggle {
-  float: right;
-  padding: 2vh 2vw 2vh 2vw;
 }
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
