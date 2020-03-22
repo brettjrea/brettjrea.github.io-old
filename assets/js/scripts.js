@@ -50,7 +50,7 @@ var container = document.querySelector("#myContent");
     container.addEventListener("touchstart", startTouch, false);
     container.addEventListener("touchmove", moveTouch, false);
 
-    // Swipe Up / Down / Left / Right
+    // Left / Right
     var initialX = null;
     var initialY = null;
 

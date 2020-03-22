@@ -19,7 +19,16 @@ html[data-theme='dark'] {
   --headings: #ddd;
   --text: #ddd;
   --link: #fc0;
-} 
+}
+
+@media (prefers-color-scheme: dark) {
+  html[data-theme='dark'] {
+    --bg: #333;
+    --bg-secondary: #444;
+    --headings: #ddd;
+    --text: #ddd;
+    --link: #fc0;
+  }
 
 html.transition,
 html.transition *,
