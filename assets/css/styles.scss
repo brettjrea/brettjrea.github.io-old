@@ -102,18 +102,13 @@ color: #f1f1f1;
 
 .sidenav-toggle {
 float:left;
-margin-left: 0px;
+padding: 2vh 2vw 2vh 2vw;
 }
 
 .theme-toggle {
   float: right;
-  text-decoration: none;
-  border: none; 
-  outline: none;
-  font-size: 3vw;
-  display: block;
-  transition: 0.3s;
-  }
+  padding: 2vh 2vw 2vh 2vw;
+}
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #myContent {
