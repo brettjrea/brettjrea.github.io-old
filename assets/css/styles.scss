@@ -117,13 +117,15 @@ margin-left: 0px;
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #myContent {
-transition: margin-left .5s;
-font-size: 3vw;
+  transition: margin-left .5s;
+  font-size: 3vw;
 }
 
-.page {
-padding-left: 6vw;
-padding-right: 6vw;
+#myPages {
+  transition: margin-left .5s;
+  font-size: 3vw;
+  margin-left: 6vw;
+  margin-right: 6vw;
 }
 
 #myLoop {
