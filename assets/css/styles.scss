@@ -5,7 +5,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Baloo+2&display=swap');
 
-html {
+html, html[data-theme="light"], {
   --bg: #fafbfc;
   --bg-secondary: #fff;
   --headings: #2B2B2B;
@@ -27,6 +27,12 @@ html.transition *:before,
 html.transition *:after {
   transition: all 650ms !important;
   transition-delay: 0 !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    content: "dark";
+  }
 }
 
 .grid-container {
@@ -131,10 +137,3 @@ padding: 2vh 2vw 2vh 2vw;
 .loop ul {
   list-style-type: none;
 }
-
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-.sidenav {padding-top: 15px;}
-.sidenav a {font-size: 18px;}
-}
-/***/
