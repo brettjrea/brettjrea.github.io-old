@@ -29,12 +29,6 @@ html.transition *:after {
   transition-delay: 0 !important;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    content: "dark";
-  }
-}
-
 .grid-container {
   display: grid;
   justify-content: space-between;

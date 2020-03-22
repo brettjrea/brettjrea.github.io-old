@@ -1,6 +1,6 @@
 // Toggle theme
 document.addEventListener('turbolinks:load', themeChange);
-
+  
 function themeChange(){
     // Select our toggle button
     let button = document.querySelector('.theme-toggle');
@@ -26,7 +26,6 @@ function themeChange(){
         }, 1000);
     }
 }
-
 
 // Toggle sidenav
 function toggleNav() {
