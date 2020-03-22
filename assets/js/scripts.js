@@ -29,18 +29,18 @@ function themeChange(){
 
 // Toggle sidenav
 function toggleNav() {
-    var x = document.getElementById("mySidenav").style.width;
-    var y = document.getElementById("myContent").style.marginLeft;
+    var x = document.getElementById("mySidenav").style;
+    var y = document.getElementById("myContent").style;
     
-    if (x == "0vw")
+    if (x.width == "0vw")
     {
-        x = "20vw";
-        y = "20vw";
+        x.width = "20vw";
+        y.marginLeft = "20vw";
     }
     else 
     {
-        x = "0vw";
-        y = "0vw";
+        x.width = "0vw";
+        y.marginLeft = "0vw";
     }
 }
 
