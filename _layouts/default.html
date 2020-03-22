@@ -10,10 +10,20 @@
   </head>
   <body>
       {% include header.html %}
-    <section id="myContent">
+    <section id="myContent" class="grid-container">
+
+    <div class="grid-item item1">
     <span onclick="toggleNav()" class="fas fa-bars fa-fw"></span> 
-    <span class="fas fa-adjust fa-fw theme-toggle"></span>
+    </div>
+
+    <div class="grid-item item2">
+      <span class="fas fa-adjust fa-fw theme-toggle"></span>
+    </div>
+
+    <div class="grid-item item3">
       {{ content }}
+    </div>
+
     </section>
       {% include footer.html %}
   </body>
