@@ -1,6 +1,6 @@
 ---
 title: /
-layout: default
+layout: page
 navigation_weight: 1
 ---
 

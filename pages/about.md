@@ -1,6 +1,6 @@
 ---
 title: About
-layout: default
+layout: page
 permalink: /about/
 navigation_weight: 2
 ---

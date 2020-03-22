@@ -1,6 +1,6 @@
 ---
 title: Blog
-layout: default
+layout: page
 permalink: /blog/
 navigation_weight: 3
 ---

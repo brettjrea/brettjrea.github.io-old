@@ -31,6 +31,7 @@ html.transition *:after {
 
 .grid-container {
   display: grid;
+  justify-content: space-between;
 }
 .item1 {
   grid-row: 1;
@@ -117,20 +118,21 @@ margin-left: 0px;
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #myContent {
 transition: margin-left .5s;
-padding: 16px 16px 16px 16px;
 font-size: 3vw;
+}
+
+.page {
+ padding-left: 5vw;
+ padding-right: 5vw;
 }
 
 #myLoop {
   transition: margin-left .5s;
-  padding: 16px 16px 16px 16px;
   font-size: 3vw;
   }
 
 .loop ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */

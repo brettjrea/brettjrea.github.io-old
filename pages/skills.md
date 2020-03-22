@@ -1,6 +1,6 @@
 ---
 title: Skills
-layout: default
+layout: page
 permalink: /skills/
 navigation_weight: 4
 ---
