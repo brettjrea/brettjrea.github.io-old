@@ -1,5 +1,5 @@
 <header>
-<nav id="mySidenav" class="sidenav" style="width: 0vw;">
+<nav id="mySidenav" class="sidenav transition" style="width: 0vw;">
   <ul>
     {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
     {% for p in navigation_pages %}
@@ -12,20 +12,5 @@
       {% endif %}
     {% endfor %}
   </ul>
-</nav>
-<script type="text/javascript">
-  // If localStorage is supported by the browser
-  if (typeof(Storage) !== "undefined") {
-      // If we need to open the bar
-      if(localStorage.getItem("sidebar") == "opened"){
-          // Remove class with transition from the 'sidebar' and the 'main'
-         
-          // Open the bar
-          document.getElementById("mySidenav").style.width = "20vw";
-          document.getElementById("myContent").style.marginLeft = "20vw";
-          // Add the transition class again
-          
-      }
-  }
-</script>   
+</nav> 
 </header>
