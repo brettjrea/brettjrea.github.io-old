@@ -13,7 +13,7 @@ html, html[data-theme="light"], {
   --link: #2B2B2B;
 }
 
-html[data-theme='dark'] {
+html[data-theme="dark"] {
   --bg: #333;
   --bg-secondary: #444;
   --headings: #ddd;
@@ -22,13 +22,21 @@ html[data-theme='dark'] {
 }
 
 @media (prefers-color-scheme: dark) {
-  html[data-theme='dark'] {
+  html, html[data-theme="dark"] {
     --bg: #333;
     --bg-secondary: #444;
     --headings: #ddd;
     --text: #ddd;
     --link: #fc0;
   }
+  html[data-theme="light"], {
+    --bg: #fafbfc;
+    --bg-secondary: #fff;
+    --headings: #2B2B2B;
+    --text: #586069;
+    --link: #2B2B2B;
+  }
+}
 
 html.transition,
 html.transition *,
@@ -81,7 +89,7 @@ a {
   color: var(--link);
 }
 
-/* The side navigation menu */
+/* The side navigation menu*/ 
 
 .sidenav {
 height: 100vh; /* 100% Full-height */

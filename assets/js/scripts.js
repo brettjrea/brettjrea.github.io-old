@@ -36,11 +36,13 @@ function toggleNav() {
     {
         x.width = "20vw";
         y.marginLeft = "20vw";
+        localStorage.setItem("sidebar", "opened");
     }
     else 
     {
         x.width = "0vw";
         y.marginLeft = "0vw";
+        localStorage.setItem("sidebar", "closed");
     }
 }
 
@@ -80,11 +82,13 @@ var container = document.querySelector("#myContent");
           // swiped left
           document.getElementById("mySidenav").style.width = "0vw";
           document.getElementById("myContent").style.marginLeft = "0vw";
+          localStorage.setItem("sidebar", "closed");
           console.log("swiped left");
         } else {
           // swiped right
           document.getElementById("mySidenav").style.width = "20vw";
           document.getElementById("myContent").style.marginLeft = "20vw";
+          localStorage.setItem("sidebar", "opened");
           console.log("swiped right");
         }  
       } 
