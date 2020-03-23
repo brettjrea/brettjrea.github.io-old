@@ -12,9 +12,11 @@ function themeChange(){
         if(currentTheme === 'light') {
             transition();
             document.documentElement.setAttribute('data-theme', 'dark');
+            localStorage.setItem("theme", "dark");
         } else {
             transition();
             document.documentElement.setAttribute('data-theme','light');
+            localStorage.setItem("theme", "light");
         }
     });
 
