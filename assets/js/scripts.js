@@ -18,14 +18,14 @@ function themeChange(){
         }
     });
 
-    // Adds the 'transition' class to <html> for CSS fun
+     /* Adds the 'transition' class to <html> for CSS fun
     let transition = () =>{
         document.documentElement.classList.add('transition');
         window.setTimeout(()=>{
             document.documentElement.classList.remove('transition');
         }, 1000);
     }
-}
+}*/
 
 // Toggle sidenav
 function toggleNav() {
