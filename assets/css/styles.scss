@@ -47,6 +47,7 @@ html.transition *:after {
 }
 .theme-toggle {
   float: right;
+  position: fixed;
   padding: 2vh 2vw 2vh 2vw;
 }
 
@@ -56,11 +57,9 @@ html.transition *:after {
 }
 .item1 {
   grid-row: 1;
-  position: fixed;
 }
 .item2 {
   grid-row: 1;
-  Position: fixed;
 }
 .item3 {
   grid-row: 2;
@@ -133,6 +132,7 @@ color: #f1f1f1;
 
 .sidenav-toggle {
 float:left;
+Position: fixed;
 padding: 2vh 2vw 2vh 2vw;
 }
 
