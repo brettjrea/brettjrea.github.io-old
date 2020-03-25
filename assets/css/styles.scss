@@ -99,7 +99,7 @@ html.transition *:after {
   right: 0;
   bottom: 0;
   background-color: var(--tog);
-  box-shadow: var(--gloss);
+  box-shadow: var(--shine);
   -webkit-transition: .4s;
   transition: .4s;
 }
@@ -112,7 +112,7 @@ html.transition *:after {
   left: 3px;
   bottom: 3px;
   background-color: var(--slide);
-  box-shadow: var(--embed);
+  box-shadow: var(--shine);
   -webkit-transition: .4s;
   transition: .4s;
 }
