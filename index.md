@@ -1,10 +1,11 @@
 ---
-title: /
+title: Home
 layout: page
+Permalink: /home/
 navigation_weight: 1
 ---
 
-### /
+### Home
 
 The Site root.
 
