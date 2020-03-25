@@ -81,6 +81,7 @@ html.transition *:after {
   display: inline-block;
   width: 9vw;
   height: 3.3vh;
+  box-shadow: var(--embed);
 }
 
 /* Hide default HTML checkbox */
@@ -99,7 +100,6 @@ html.transition *:after {
   right: 0;
   bottom: 0;
   background-color: var(--tog);
-  box-shadow: var(--embed);
   -webkit-transition: .4s;
   transition: .4s;
 }
