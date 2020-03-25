@@ -58,6 +58,7 @@ html.transition *:after {
 /* The switch - the box around the slider */
 .switch {
   float: right;
+  padding: 2vh 2vw 2vh 2vw;
   position: relative;
   display: inline-block;
   width: 9vw;
