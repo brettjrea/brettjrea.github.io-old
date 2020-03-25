@@ -16,7 +16,7 @@ html, html[data-theme="light"], {
   --tog: #444;
   --slide: #fc0;
   --gloss: inset -7px 0 9px -7px white;
-  --embed: inset 7px 0 12px -7px rgba(0,0,0,0.7);
+  --embed: 7px 0 12px -7px rgba(0,0,0,0.7);
 
 }
 
@@ -31,7 +31,7 @@ html[data-theme="dark"] {
   --tog: #fc0;
   --slide: #444;
   --gloss: inset -7px 0 9px -7px white;
-  --embed: inset 7px 0 12px -7px white;
+  --embed: 7px 0 12px -7px white;
 
 }
 
