@@ -103,7 +103,7 @@ input:checked + .slider {
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px background-color: var(--tog);;
+  box-shadow: 0 0 1px background-color: var(--tog);
 }
 
 input:checked + .slider:before {
