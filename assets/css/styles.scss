@@ -16,18 +16,18 @@ html, html[data-theme="light"], {
 html[data-theme="dark"] {
   --bg: #404040;
   --bg-secondary: #444;
-  --headings: #fco;
-  --text: #fco;
-  --link: #ddd;
+  --headings: #ddd;
+  --text: #ddd;
+  --link: #fc0;
 }
 
 @media (prefers-color-scheme: dark) {
   html, html[data-theme="dark"] {
     --bg: #404040;
     --bg-secondary: #444;
-    --headings: #fco;
-    --text: #fc0;
-    --link: #ddd;
+    --headings: #ddd;
+    --text: #ddd;
+    --link: #fc0;
   }
   html[data-theme="light"], {
     --bg: #fafbfc;
