@@ -14,7 +14,7 @@ html, html[data-theme="light"], {
   --soc: #333;
   --socshine: inset 7px 0px 9px -7px white;
   --togbg: #333;
-  --togbgshine: 1px 1px 20px -7px rgba(0,0,0,0.7);
+  --togbgshine: 7px 1px 20px -7px rgba(0,0,0,0.7);
   --togswitch: #fc0;
   --togswitchshine: inset -7px 0px 9px -7px rgba(0,0,0,0.7);
 
@@ -29,7 +29,7 @@ html[data-theme="dark"] {
   --soc: #fc0;
   --socshine: inset 7px 0px 9px -7px rgba(0,0,0,0.7);
   --togbg: #fc0;
-  --togbgshine: 1px 1px 20px -7px white;
+  --togbgshine: 7px 1px 20px -7px white;
   --togswitch: #333;
   --togswitchshine: inset -7px 0px 9px -7px white;
 
