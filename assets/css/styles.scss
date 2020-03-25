@@ -16,7 +16,7 @@ html, html[data-theme="light"], {
   --tog: #444;
   --slide: #fc0;
   --gloss: inset -7px 0 9px -7px white;
-  --embed: 0px 0 15px -7px rgba(0,0,0,0.7);
+  --embed: 0px 0 10px -7px rgba(0,0,0,0.7);
 
 }
 
@@ -31,7 +31,7 @@ html[data-theme="dark"] {
   --tog: #fc0;
   --slide: #444;
   --gloss: inset -7px 0 9px -7px white;
-  --embed: 0px 0px 15px -7px white;
+  --embed: 0px 0px 10px -7px white;
 
 }
 
@@ -47,7 +47,7 @@ html[data-theme="dark"] {
     --tog: #fc0;
     --slide: #444;
     --gloss: inset -7px 0 9px -7px white;
-    --embed: 0px 0px 15px -7px white;
+    --embed: 0px 0px 10px -7px white;
   }
   html[data-theme="light"], {
     --bg: #fafbfc;
@@ -60,7 +60,7 @@ html[data-theme="dark"] {
     --tog: #444;
     --slide: #fc0;
     --gloss: inset -7px 0 9px -7px white;
-    --embed: 0px 0 15px -7px rgba(0,0,0,0.7);
+    --embed: 0px 0 10px -7px rgba(0,0,0,0.7);
   }
 }
 
