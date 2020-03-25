@@ -90,11 +90,12 @@ html.transition *:after {
 
 input:checked + .slider {
   background-color: var(--togbg);
+  box-shadow: var(--togbgshine);
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px;
   background-color: var(--togbg);
+  box-shadow: var(--togbgshine);
 }
 
 input:checked + .slider:before {
