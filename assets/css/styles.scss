@@ -60,7 +60,7 @@ html.transition *:after {
   float: right;
   position: relative;
   display: inline-block;
-  width: 6vw;
+  width: 9vw;
   height: 3vh;
 }
 
@@ -87,8 +87,8 @@ html.transition *:after {
 .slider:before {
   position: absolute;
   content: "";
-  height: 26px;
-  width: 26px;
+  height: 3vh;
+  width: 3vh;
   left: 4px;
   bottom: 4px;
   background-color: var(--slide);
