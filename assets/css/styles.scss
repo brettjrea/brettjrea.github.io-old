@@ -16,7 +16,7 @@ html, html[data-theme="light"], {
   --togbg: #333;
   --togbgshine: inset 7px 0 9px -7px white;
   --togswitch: #fc0;
-  --togswitchshine: inset 7px 0px 9px -7px rgba(0,0,0,0.7);
+  --togswitchshine: inset -7px 0px 9px -7px rgba(0,0,0,0.7);
 
 }
 
@@ -31,7 +31,7 @@ html[data-theme="dark"] {
   --togbg: #fc0;
   --togbgshine:inset 7px 0px 9px -7px rgba(0,0,0,0.7);
   --togswitch: #333;
-  --togswitchshine: inset 7px 0 9px -7px white;
+  --togswitchshine: inset -7px 0 9px -7px white;
 
 }
 
