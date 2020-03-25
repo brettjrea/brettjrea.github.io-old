@@ -16,7 +16,6 @@ html, html[data-theme="light"], {
   --tog: #444;
   --slide: #fc0;
   --gloss: inset -7px 0 9px -7px white;
-  --embed: 0px 0 10px -7px rgba(0,0,0,0.7);
 
 }
 
@@ -27,11 +26,10 @@ html[data-theme="dark"] {
   --text: #ddd;
   --link: #fc0;
   --soc: #fc0;
-  --shine: inset -7px 0px 9px -7px white;
+  --shine: inset -7px 0px 9px -7px rgba(0,0,0,0.7);
   --tog: #fc0;
   --slide: #444;
   --gloss: inset -7px 0 9px -7px white;
-  --embed: 0px 0px 10px -7px white;
 
 }
 
