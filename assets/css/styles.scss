@@ -33,6 +33,7 @@ html[data-theme="dark"] {
 
 }
 
+/***
 @media (prefers-color-scheme: dark) {
   html, html[data-theme="dark"] {
     --bg: #404040;
@@ -61,7 +62,7 @@ html[data-theme="dark"] {
     --embed: 0px 0 10px -7px rgba(0,0,0,0.7);
   }
 }
-
+***//
 html.transition,
 html.transition *,
 html.transition *:before,
