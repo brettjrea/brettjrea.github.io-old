@@ -11,6 +11,8 @@ html, html[data-theme="light"], {
   --headings: #2B2B2B;
   --text: #586069;
   --link: #2B2B2B;
+  --soc: #333;
+  --shine: inset 7px 0 9px -7px white;
 }
 
 html[data-theme="dark"] {
@@ -19,6 +21,9 @@ html[data-theme="dark"] {
   --headings: #ddd;
   --text: #ddd;
   --link: #fc0;
+  --soc: #fc0;
+  --shine: inset 7px 0 9px -7px rgba(0,0,0,0.7);
+
 }
 
 @media (prefers-color-scheme: dark) {
@@ -154,3 +159,68 @@ padding: 2vh 2vw 2vh 2vw;
 .loop ul {
   list-style-type: none;
 }
+ /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  right: 0%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.soc {
+  color: var(--bg);
+}
+.facebook {
+  border-top-left-radius: 10pt 10pt;
+  background: var(--soc);
+  color: var(--bg);
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, .5);
+  box-shadow: var(--shine);
+}
+
+.twitter {
+  background: var(--soc);
+  color: white;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, .5);
+  box-shadow: var(--shine);
+}
+
+.google {
+  background: var(--soc);
+  color: white;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, .5);
+  box-shadow: var(--shine);
+}
+
+.linkedin {
+  background: var(--soc);
+  color: white;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, .5);
+  box-shadow: var(--shine);
+}
+
+.youtube {
+  border-bottom-left-radius: 10pt 10pt;
+  background: var(--soc);
+  color: white;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, .5);
+  box-shadow: var(--shine);
+}
+
