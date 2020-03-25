@@ -14,7 +14,7 @@ html, html[data-theme="light"], {
 }
 
 html[data-theme="dark"] {
-  --bg: #333;
+  --bg: #404040;
   --bg-secondary: #444;
   --headings: #ddd;
   --text: #ddd;
@@ -23,7 +23,7 @@ html[data-theme="dark"] {
 
 @media (prefers-color-scheme: dark) {
   html, html[data-theme="dark"] {
-    --bg: #333;
+    --bg: #404040;
     --bg-secondary: #444;
     --headings: #ddd;
     --text: #ddd;
