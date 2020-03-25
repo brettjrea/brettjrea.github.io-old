@@ -29,7 +29,7 @@ html[data-theme="dark"] {
   --shine: inset 7px 0 9px -7px rgba(0,0,0,0.7);
   --tog: #fc0;
   --slide: #444;
-  --gloss: inset -7px 0 9px -7px rgba(0,0,0,0.7);
+  --gloss: inset -7px 0 9px -7px white;
 }
 
 @media (prefers-color-scheme: dark) {
