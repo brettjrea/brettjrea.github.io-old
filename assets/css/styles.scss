@@ -172,8 +172,9 @@ transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
 }
 
 tab {
-background: car(--soc);
-width: 120%;
+background: red;
+margin-left: 50%;
+width: 150%;
 }
 
 .sidenav ul {
