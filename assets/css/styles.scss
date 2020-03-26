@@ -50,7 +50,7 @@ html.transition *:after {
   margin-right: 2vw;
   position: relative;
   display: inline-block;
-  width: 8vw;
+  width: 10vw;
   height: 3.3vh;
   }
 
@@ -80,7 +80,7 @@ html.transition *:after {
   content: "";
   height: 3vh;
   width: 3vh;
-  left: 1vw;
+  left: .2vw;
   bottom: .2vh;
   background-color: var(--togswitch);
   box-shadow: var(--togswitchshine);
@@ -99,9 +99,9 @@ input:focus + .slider {
 }
 
 input:checked + .slider:before {
-  -webkit-transform: translateX(3vw);
-  -ms-transform: translateX(3vw);
-  transform: translateX(3vw);
+  -webkit-transform: translateX(6.6vw);
+  -ms-transform: translateX(6.6vw);
+  transform: translateX(6.6vw);
 }
 
 /* Rounded sliders */
