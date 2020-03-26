@@ -50,8 +50,8 @@ html.transition *:after {
   margin-right: 2vw;
   position: relative;
   display: inline-block;
-  width: 9vw;
-  height: 3.3vh;
+  width: 6rem;
+  height: 3.3rem;
   }
 
 /* Hide default HTML checkbox */
@@ -78,10 +78,10 @@ html.transition *:after {
 .slider:before {
   position: absolute;
   content: "";
-  height: 3vh;
-  width: 3vh;
-  left: .2vw;
-  bottom: .2vh;
+  height: 3rem;
+  width: 3rem;
+  left: 10%;
+  bottom: 5%;
   background-color: var(--togswitch);
   box-shadow: var(--togswitchshine);
   -webkit-transition: .4s;
@@ -99,9 +99,9 @@ input:focus + .slider {
 }
 
 input:checked + .slider:before {
-  -webkit-transform: translateX(200%);
-  -ms-transform: translateX(200%);
-  transform: translateX(200%);
+  -webkit-transform: translateX(66%);
+  -ms-transform: translateX(66%);
+  transform: translateX(66%);
 }
 
 /* Rounded sliders */
