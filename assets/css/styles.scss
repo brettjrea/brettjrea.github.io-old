@@ -133,10 +133,8 @@ input:checked + .slider:before {
 body {
   background-color: var(--bg);
   font-family: 'Baloo 2', cursive, Arial, Helvetica, sans-serif;
-}
-
-.container {
-  background-color: var(--bg-secondary);
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -179,7 +177,7 @@ transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
 
 /* The navigation menu links */
 .sidenav a {
-padding: 8px 8px 8px 32px;
+padding: 8px 0px 8px 32px;
 text-shadow: 0px 1px 0px rgba(255, 255, 255, .5);
 text-decoration: none;
 font-size: 3vw;
@@ -202,7 +200,7 @@ padding: 2vh 2vw 2vh 2vw;
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #myContent {
   font-size: 3vw;
-  box-shadow: inset 1px 0px 25px -25px rgba(0,0,0,0.45), inset -1px 0px 25px -25px rgba(0,0,0,0.45);
+  box-shadow: inset 0px 0px 1rem .5rem rgba(0,0,0,0.7);
 }
 
 #myPages {
@@ -220,7 +218,8 @@ padding: 2vh 2vw 2vh 2vw;
 .loop ul {
   list-style-type: none;
 }
- /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+/*** STYLE SOCIAL BAR ***/
+/*** STYLE SOCIAL BAR ***/
 .icon-bar {
   position: fixed;
   top: 50%;
@@ -228,60 +227,34 @@ padding: 2vh 2vw 2vh 2vw;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+  border-top-left-radius: 10pt 10pt;
+  border-bottom-left-radius: 10pt 10pt;
+  box-shadow: 1px 0px .7rem .3rem rgba(0,0,0,0.7);
 }
-
-/* Style the icon bar links */
 .icon-bar a {
   display: block;
   text-align: center;
   padding: 1rem;
   transition: all 0.3s ease;
-  color: white;
   font-size: 1rem;
+  background: var(--soc);
+  box-shadow: var(--socshine);
+  color: var(--bg);
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, .5);
 }
-
-/* Style the social media icons with color, if you want */
 .icon-bar a:hover {
   filter: brightness(50%);
 }
-
-.soc {
-  color: var(--bg);
-}
-.facebook {
+.toptile {
   border-top-left-radius: 10pt 10pt;
-  background: var(--soc);
-  color: var(--bg);
-  text-shadow: 0px 1px 0px rgba(255, 255, 255, .5);
-  box-shadow: var(--socshine);
+
 }
 
-.twitter {
-  background: var(--soc);
-  color: white;
-  text-shadow: 0px 1px 0px rgba(255, 255, 255, .5);
-  box-shadow: var(--socshine);
+.tile {
+  
 }
-
-.google {
-  background: var(--soc);
-  color: white;
-  text-shadow: 0px 1px 0px rgba(255, 255, 255, .5);
-  box-shadow: var(--socshine);
-}
-
-.linkedin {
-  background: var(--soc);
-  color: white;
-  text-shadow: 0px 1px 0px rgba(255, 255, 255, .5);
-  box-shadow: var(--socshine);
-}
-
-.youtube {
+.bottomtile {
   border-bottom-left-radius: 10pt 10pt;
-  background: var(--soc);
-  color: white;
-  text-shadow: 0px 1px 0px rgba(255, 255, 255, .5);
-  box-shadow: var(--socshine);
 }
-
+/*** STYLE SOCIAL BAR ***/
+/*** STYLE SOCIAL BAR ***/
