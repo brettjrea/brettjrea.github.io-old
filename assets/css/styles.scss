@@ -201,6 +201,8 @@ padding: 2vh 2vw 2vh 2vw;
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #myContent {
   font-size: 3vw;
+padding: 0px 0px 0px 0px;
+box-shadow: inset 25px 0px 25px -25px rgba(0,0,0,0.45), inset -25px 0px 25px -25px rgba(0,0,0,0.45);
 }
 
 #myPages {
