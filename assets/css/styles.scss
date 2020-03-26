@@ -17,7 +17,7 @@ html, html[data-theme="light"], {
   --togbgshine: 0px 0px 2px 2px rgba(0,0,0,0.7), inset 0px 0px 7px 5px rgba(0,0,0,0.7);
   --togswitch: #fc0;
   --togswitchshine: inset -7px -3px 9px -7px rgba(0,0,0,0.7);
-  --navshine: inset -7px 0px 9px -7px white;
+  --navshine: inset -15px 0px 15px -15px white, inset 15px 0px 15px -15px rgba(0,0,0,0.7);
 }
 
 html[data-theme="dark"] {
@@ -32,7 +32,7 @@ html[data-theme="dark"] {
   --togbgshine: 0px 0px 2px 2px #333, inset 0px 0px 9px 3px #271400;
   --togswitch: #ddd;
   --togswitchshine: inset -2px 0px 5px 3px rgba(0,0,0,0.7);
-  --navshine: inset -7px -0px 9px -7px rgba(0,0,0,0.7);
+  --navshine: inset -15px 0px 15px -15px rgb(0, 0, 0), inset 15px 0px 15px -15px rgb(0, 0, 0);
 }
 
 html.transition,
@@ -200,7 +200,7 @@ padding: 2vh 2vw 2vh 2vw;
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #myContent {
   font-size: 3vw;
-  box-shadow: inset 0px 0px 1rem .5rem rgba(0,0,0,0.7);
+  box-shadow: inset 25px 0px 25px -25px rgba(0,0,0,0.45), inset -25px 0px 25px -25px rgba(0,0,0,0.45);
 }
 
 #myPages {
@@ -229,7 +229,7 @@ padding: 2vh 2vw 2vh 2vw;
   transform: translateY(-50%);
   border-top-left-radius: 10pt 10pt;
   border-bottom-left-radius: 10pt 10pt;
-  box-shadow: 1px 0px .7rem .3rem rgba(0,0,0,0.7);
+  box-shadow: 1px 0px .5rem .2rem rgba(0,0,0,0.45);
 }
 .icon-bar a {
   display: block;
