@@ -99,9 +99,9 @@ input:focus + .slider {
 }
 
 input:checked + .slider:before {
-  -webkit-transform: translateX(6vw);
-  -ms-transform: translateX(6vw);
-  transform: translateX(6vw);
+  -webkit-transform: translateX(5vw);
+  -ms-transform: translateX(5vw);
+  transform: translateX(5vw);
 }
 
 /* Rounded sliders */
