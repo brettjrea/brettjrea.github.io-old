@@ -79,9 +79,9 @@ html.transition *:after {
   position: absolute;
   content: "";
   height: 3vh;
-  width: 3vh;
-  left: 3px;
-  bottom: 3px;
+  width: 3vw;
+  left: .2vw;
+  bottom: .2vh;
   background-color: var(--togswitch);
   box-shadow: var(--togswitchshine);
   -webkit-transition: .4s;
@@ -99,9 +99,9 @@ input:focus + .slider {
 }
 
 input:checked + .slider:before {
-  -webkit-transform: translateX(31px);
-  -ms-transform: translateX(31px);
-  transform: translateX(31px);
+  -webkit-transform: translateX(5.7vw);
+  -ms-transform: translateX(5.7vw);
+  transform: translateX(5.7vw);
 }
 
 /* Rounded sliders */
