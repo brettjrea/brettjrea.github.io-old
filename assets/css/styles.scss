@@ -49,6 +49,7 @@ html.transition *:after {
 
 /* The switch - the box around the slider */
 .switch {
+  position: relative;
   float: right;
   margin-top: 1vh;
   margin-right: 2vw;
