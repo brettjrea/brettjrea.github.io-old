@@ -11,6 +11,8 @@ About me.
 
 {% gist 8ec8ed1651696dcba40bc19d725be8ba %}
 
+<script src="https://gist.github.com/brettjrea/8ec8ed1651696dcba40bc19d725be8ba.js"></script>
+
 Lorem Ipsum
 "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
 "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
