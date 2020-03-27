@@ -166,7 +166,7 @@ background: var(--soc);
 color: var(--bg);
 box-shadow: var(--navshine);
 overflow-x: hidden; /* Disable horizontal scroll */
-padding-top: 4.1rem;
+padding-top: 5.1rem;
 }
 
 .effect {
@@ -184,7 +184,7 @@ transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
 padding: .5rem .5rem .5rem 2rem;
 text-shadow: 0px 1px 0px rgba(255, 255, 255, .5);
 text-decoration: none;
-font-size: 2rem;
+font-size: 1.5rem;
 color: var(--bg);
 background-color: var(--soc);
 box-shadow: var(--navshine);
@@ -200,13 +200,12 @@ transition: 0.3s;
 .sidenav-toggle {
 position: fixed;
 top: 0;
-margin-left: -2vw;
+margin-left: -2rem;
 z-index: 2;
-float:left;
-padding: .5rem .5rem .5rem 2vw;
+padding: 1rem 1rem 1rem 2.5rem;
 text-shadow: 0px 1px 0px rgba(255, 255, 255, .5);
 text-decoration: none;
-font-size: 2rem;
+font-size: 2.5rem;
 color: var(--bg);
 background-color: var(--soc);
 box-shadow: var(--navbshine);
@@ -216,6 +215,10 @@ border-top-right-radius: 10pt 10pt;
 border-bottom-right-radius: 10pt 10pt;
 }
 
+.hoverpad {
+  height: 100vh;
+  width: 7vw;
+}
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #myContent {
   font-size: 3vw;
