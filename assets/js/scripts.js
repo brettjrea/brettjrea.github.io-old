@@ -47,7 +47,7 @@ function toggleNav() {
         localStorage.setItem("sidebar", "closed");
     }
 }
-
+/*
 // Touch sidenav
 var container = document.querySelector("#myContent");
 
@@ -98,4 +98,4 @@ var container = document.querySelector("#myContent");
       initialY = null;
       
       e.preventDefault();
-    };
+    };*/
