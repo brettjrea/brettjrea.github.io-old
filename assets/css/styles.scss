@@ -166,7 +166,7 @@ background: var(--soc);
 color: var(--bg);
 box-shadow: var(--navshine);
 overflow-x: hidden; /* Disable horizontal scroll */
-padding-top: 30vh;
+padding-top: 10vh;
 }
 
 .effect {
@@ -199,8 +199,8 @@ transition: 0.3s;
 
 .sidenav-toggle {
 position: fixed;
-top: 5%;
-margin-left: -2vw;
+top: 1vh;
+margin-left: -1vw;
 z-index: 2;
 float:left;
 padding: 8px 8px 8px 32px;
