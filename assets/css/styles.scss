@@ -18,6 +18,7 @@ html, html[data-theme="light"], {
   --togswitch: #fc0;
   --togswitchshine: inset -7px -3px 9px -7px rgba(0,0,0,0.7);
   --navshine: inset -15px 0px 15px -15px white, inset 15px 0px 15px -15px rgba(0,0,0,0.7);
+  --navbshine: inset -0px 0px 15px -15px white, inset 0px 0px 15px -15px rgba(0,0,0,0.7);
   --navtile: inset 0px 0px 2px -1px white;
 }
 
@@ -35,6 +36,7 @@ html[data-theme="dark"] {
   --togswitchshine: inset -2px 0px 5px 3px rgba(0,0,0,0.7);
   --navshine: inset -15px 0px 15px -15px rgb(0, 0, 0), inset 15px 0px 15px -15px rgb(0, 0, 0);
   --navtile: inset 0px 0px 2px -1px rgba(0,0,0,0.7);
+  --navbshine: inset 0px 0px 15px -15px rgb(0, 0, 0), inset 0px 0px 15px -15px rgb(0, 0, 0);
 }
 
 html.transition,
@@ -203,7 +205,7 @@ text-decoration: none;
 font-size: 3vw;
 color: var(--bg);
 background-color: var(--soc);
-box-shadow: var(--navshine);
+box-shadow: var(--navbshine);
 display: block;
 transition: 0.3s;
 }
