@@ -1,9 +1,9 @@
 <header>
 <nav id="mySidenav" class="sidenav effect" style="width: 0vw;">
-<div class="grid-item item1">
-    <span onclick="toggleNav()" class="sidenav-toggle fas fa-bars fa-fw"></span> 
-    </div>
   <ul>
+    <li>
+    <span onclick="toggleNav()" class="sidenav-toggle fas fa-bars fa-fw"></span> 
+   </li>
     {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
     {% for p in navigation_pages %}
       {% if p.navigation_weight %}
