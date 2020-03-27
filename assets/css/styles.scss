@@ -18,8 +18,8 @@ html, html[data-theme="light"], {
   --togswitch: #fc0;
   --togswitchshine: inset -7px -3px 9px -7px rgba(0,0,0,0.7);
   --navshine: inset -15px 0px 15px -15px white, inset 15px 0px 15px -15px rgba(0,0,0,0.7);
-  --navbshine: inset -0px 0px 15px -15px white, inset 0px 0px 15px -15px rgba(0,0,0,0.7);
   --navtile: inset 0px 0px 2px -1px white;
+  --navbshine: inset -15px 0px 15px -15px white;
 }
 
 html[data-theme="dark"] {
