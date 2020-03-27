@@ -184,8 +184,8 @@ text-shadow: 0px 1px 0px rgba(255, 255, 255, .5);
 text-decoration: none;
 font-size: 3vw;
 color: var(--bg);
-background-color: var(--togswitch);
-box-shadow: var(--togswitchshine);
+background-color: var(--navtile);
+box-shadow: var(--navshine);
 display: block;
 transition: 0.3s;
 }
@@ -201,9 +201,9 @@ padding: 8px 8px 8px 8px;
 text-shadow: 0px 1px 0px rgba(255, 255, 255, .5);
 text-decoration: none;
 font-size: 3vw;
-background: var(--soc);
 color: var(--bg);
-box-shadow: var(--navshine);
+background-color: var(--togswitch);
+box-shadow: var(--togswitchshine);
 display: block;
 transition: 0.3s;
 }
