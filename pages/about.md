@@ -9,9 +9,7 @@ navigation_weight: 2
 
 About me.
 
-{% gist 8ec8ed1651696dcba40bc19d725be8ba %}
-
-<script src="https://gist.github.com/brettjrea/8ec8ed1651696dcba40bc19d725be8ba.js"></script>
+{% gist 99ec9fda4d3954c73c196f1746d6665a %}
 
 Lorem Ipsum
 "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
