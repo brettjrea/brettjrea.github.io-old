@@ -197,13 +197,15 @@ transition: 0.3s;
 
 .sidenav-toggle {
 float:left;
-height: 60px;
-padding: 2vh 2vw 2vh 2vw;
-transition: all 0.3s ease;
-background: var(--soc);
-box-shadow: var(--navshine);
-color: var(--bg);
+padding: 8px 0px 8px 32px;
 text-shadow: 0px 1px 0px rgba(255, 255, 255, .5);
+text-decoration: none;
+font-size: 3vw;
+background: var(--soc);
+color: var(--bg);
+box-shadow: var(--navshine);
+display: block;
+transition: 0.3s;
 }
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
