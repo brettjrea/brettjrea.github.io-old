@@ -198,11 +198,11 @@ transition: 0.3s;
 
 
 .sidenav-toggle {
-position: sticky;
 position: -webkit-sticky;
 position: -moz-sticky;
 position: -o-sticky;
 position: -ms-sticky;
+position: sticky;
 top: 0;
 margin-left: -2rem;
 z-index: 2;
