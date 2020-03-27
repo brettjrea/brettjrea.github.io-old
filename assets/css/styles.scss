@@ -36,7 +36,7 @@ html[data-theme="dark"] {
   --togswitchshine: inset -2px 0px 5px 3px rgba(0,0,0,0.7);
   --navshine: inset -15px 0px 15px -15px rgb(0, 0, 0), inset 15px 0px 15px -15px rgb(0, 0, 0);
   --navtile: inset 0px 0px 2px -1px rgba(0,0,0,0.7);
-  --navbshine: inset -15px 0px 15px -15px rgb(0, 0, 0);
+  --navbshine: inset -15px 0px 15px -15px rgb(0, 0, 0), -1px 0px .5rem .2rem rgba(0,0,0,0.45);
 }
 
 html.transition,
@@ -214,7 +214,6 @@ display: block;
 transition: 0.3s;
 border-top-right-radius: 10pt 10pt;
 border-bottom-right-radius: 10pt 10pt;
-box-shadow: -1px 0px .5rem .2rem rgba(0,0,0,0.45);
 }
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
