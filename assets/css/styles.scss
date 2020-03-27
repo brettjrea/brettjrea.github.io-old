@@ -199,11 +199,11 @@ transition: 0.3s;
 
 .sidenav-toggle {
 position: fixed;
-top: 1vh;
+top: .5vh;
 margin-left: -2vw;
 z-index: 2;
 float:left;
-padding: 1vh 1vw 1vh 6vw;
+padding: 1vh 1vw 1vh 3vw;
 text-shadow: 0px 1px 0px rgba(255, 255, 255, .5);
 text-decoration: none;
 font-size: 3vw;
