@@ -216,9 +216,9 @@ border-bottom-right-radius: 10pt 10pt;
 }
 
 #hoverpad {
-  position: relative;
+  z-index: 3;
   height: 100%;
-  width: 10vw;
+  width: 20%;
 }
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #myContent {
