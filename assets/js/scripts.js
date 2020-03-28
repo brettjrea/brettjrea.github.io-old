@@ -49,7 +49,7 @@ function toggleNav() {
 }
 
 // Touch sidenav
-var container = document.querySelector("#hoverpad");
+var container = document.querySelector("#myContent");
 
     container.addEventListener("touchstart", startTouch, false);
     container.addEventListener("touchmove", moveTouch, false);
