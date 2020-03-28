@@ -97,5 +97,4 @@ var container = document.querySelector("#myContent");
       initialX = null;
       initialY = null;
       
-      e.preventDefault();
     };
