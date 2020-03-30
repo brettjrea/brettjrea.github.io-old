@@ -12,7 +12,7 @@ About me.
 {% gist 56847c8edd4f18352cf0e43dd2673d5f %}
 
 
-```
+```html
 <code>
 ```
 
