@@ -323,6 +323,7 @@ body .gist tr:last-child td {
 }
 
 body .gist .blob-num {
+    display: none;
     color: #ced4da;
     background-color: #495057;
     pointer-events: none;
