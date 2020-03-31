@@ -25,3 +25,12 @@ categories: jekyll update
 
 
 {% gist 94c0b02333d34dcdfbd32fad2ed103ac %}
+
+
+{% gist 0174859e72280e2057795b89fe9b15df %}
+
+
+{% gist e6107ca1b17af1935c07d5adff4def7e %}
+
+
+{% gist 05b713b2675d2f01bee7baf56cd63a11 %}
