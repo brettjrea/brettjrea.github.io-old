@@ -280,8 +280,12 @@ border-bottom-right-radius: 10pt 10pt;
   border-bottom-left-radius: 10pt 10pt;
 }
 /*** STYLE SOCIAL BAR ***/
-/*** STYLE SOCIAL BAR ***/
 
+/*** Syntax Highlighting ***/
+pre {
+  white-space: pre-wrap;
+  word-break: break-word;
+}
 .highlight pre { background-color: #272822; }
 .highlight .hll { background-color: #272822; }
 .highlight .c { color: #75715e } /* Comment */
@@ -347,7 +351,4 @@ border-bottom-right-radius: 10pt 10pt;
 .highlight .gu { color: #75715e; } /* Generic.Subheading & Diff Unified/Comment? */
 .highlight .gd { color: #f92672; } /* Generic.Deleted & Diff Deleted */
 .highlight .gi { color: #a6e22e; } /* Generic.Inserted & Diff Inserted */
-pre {
-  white-space: pre-wrap;
-  word-break: break-word;
-}
+/*** Syntax Highlighting ***/
