@@ -289,7 +289,6 @@ body .gist .gist-file {
     border: 1px dashed #adb5bd;
     border-radius: 0;
     width: 55vw;
-    overflow-wrap: break-word;
 }
 
 body .gist .gist-data {
@@ -306,6 +305,7 @@ body .gist .highlight {
     background-color: transparent;
     font-family: 'Droid Sans Mono', monospace;
     font-size: 1rem;
+    overflow-wrap: break-word;
 }
 
 body .gist .highlight td {
