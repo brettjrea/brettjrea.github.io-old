@@ -1,6 +1,3 @@
-[submodule "Windows_Microsoft_Terminal"]
-	path = Windows_Microsoft_Terminal
-	url = https://github.com/brettjrea/Windows_Microsoft_Terminal.git
 [submodule "repos/Windows_Microsoft_Terminal"]
 	path = repos/Windows_Microsoft_Terminal
 	url = https://github.com/brettjrea/Windows_Microsoft_Terminal.git

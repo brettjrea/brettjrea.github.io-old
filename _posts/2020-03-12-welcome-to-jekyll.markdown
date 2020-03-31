@@ -25,5 +25,3 @@ categories: jekyll update
 
 
 {% gist e6107ca1b17af1935c07d5adff4def7e %}
-
-
