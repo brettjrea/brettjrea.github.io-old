@@ -5,6 +5,11 @@
 
 @import url('https://fonts.googleapis.com/css?family=Baloo+2&display=swap');
 
+/* https://github.com/lonekorean/gist-syntax-themes */
+@import url('https://cdn.rawgit.com/lonekorean/gist-syntax-themes/d49b91b3/stylesheets/idle-fingers.css');
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 html, html[data-theme="light"], {
   --bg: #fafbfc;
   --bg-secondary: #fff;
