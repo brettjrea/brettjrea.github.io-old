@@ -1,11 +1,13 @@
----
-# this ensures Jekyll reads the file to be transformed into CSS later
-# only Main files contain this front matter, not partials.
----
+--- 
+# this ensures Jekyll reads the file to be transformed into CSS later # only Main files contain this front matter,
+not partials. 
+--- 
 
 @import url('https://fonts.googleapis.com/css?family=Baloo+2&display=swap');
 
-html, html[data-theme="light"], {
+html,
+html[data-theme="light"],
+  {
   --bg: #fafbfc;
   --bg-secondary: #fff;
   --headings: #2B2B2B;
@@ -14,10 +16,10 @@ html, html[data-theme="light"], {
   --soc: #333;
   --socshine: inset 7px 0px 9px -7px white;
   --togbg: #333;
-  --togbgshine: 0px 0px 2px 2px rgba(0,0,0,0.7), inset 0px 0px 7px 5px rgba(0,0,0,0.7);
+  --togbgshine: 0px 0px 2px 2px rgba(0, 0, 0, 0.7), inset 0px 0px 7px 5px rgba(0, 0, 0, 0.7);
   --togswitch: #fc0;
-  --togswitchshine: inset -7px -3px 9px -7px rgba(0,0,0,0.7);
-  --navshine: inset -15px 0px 15px -15px white, inset 15px 0px 15px -15px rgba(0,0,0,0.7);
+  --togswitchshine: inset -7px -3px 9px -7px rgba(0, 0, 0, 0.7);
+  --navshine: inset -15px 0px 15px -15px white, inset 15px 0px 15px -15px rgba(0, 0, 0, 0.7);
   --navtile: inset 0px 0px 2px -1px white;
   --navbshine: inset -15px 0px 15px -15px white;
 }
@@ -29,13 +31,13 @@ html[data-theme="dark"] {
   --text: #ddd;
   --link: #fc0;
   --soc: #fc0;
-  --socshine: inset 7px -0px 9px -7px rgba(0,0,0,0.7);
+  --socshine: inset 7px -0px 9px -7px rgba(0, 0, 0, 0.7);
   --togbg: #fc0;
   --togbgshine: 0px 0px 2px 2px #333, inset 0px 0px 9px 3px #271400;
   --togswitch: #ddd;
-  --togswitchshine: inset -2px 0px 5px 3px rgba(0,0,0,0.7);
+  --togswitchshine: inset -2px 0px 5px 3px rgba(0, 0, 0, 0.7);
   --navshine: inset -15px 0px 15px -15px rgb(0, 0, 0), inset 15px 0px 15px -15px rgb(0, 0, 0);
-  --navtile: inset 0px 0px 2px -1px rgba(0,0,0,0.7);
+  --navtile: inset 0px 0px 2px -1px rgba(0, 0, 0, 0.7);
   --navbshine: inset -15px 0px 15px -15px rgb(0, 0, 0);
 }
 
@@ -56,7 +58,7 @@ html.transition *:after {
   display: inline-block;
   width: 6rem;
   height: 3.3rem;
-  }
+}
 
 /* Hide default HTML checkbox */
 .switch input {
@@ -92,17 +94,17 @@ html.transition *:after {
   transition: .4s;
 }
 
-input:checked + .slider {
+input:checked+.slider {
   background-color: var(--togbg);
   box-shadow: var(--togbgshine);
 }
 
-input:focus + .slider {
+input:focus+.slider {
   background-color: var(--togbg);
   box-shadow: var(--togbgshine);
 }
 
-input:checked + .slider:before {
+input:checked+.slider:before {
   -webkit-transform: translateX(66%);
   -ms-transform: translateX(66%);
   transform: translateX(66%);
@@ -120,15 +122,19 @@ input:checked + .slider:before {
 .grid-container {
   display: grid;
 }
+
 .item1 {
   grid-row: 1;
 }
+
 .item2 {
   grid-row: 1;
 }
+
 .item3 {
   grid-row: 2;
 }
+
 .item4 {
   grid-row: 2;
 }
@@ -141,11 +147,22 @@ body {
   padding: 0 !important;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: var(--headings);
 }
 
-p, strong, b, em, span, code, small {
+p,
+strong,
+b,
+em,
+span,
+code,
+small {
   color: var(--text);
 }
 
@@ -153,24 +170,31 @@ a {
   color: var(--link);
 }
 
-/* The side navigation menu*/ 
+/* The side navigation menu*/
 
 .sidenav {
-height: 100vh; /* 100% Full-height */
-width: 0vw; /* 0 width - change this with JavaScript */
-position: fixed; /* Stay in place */
-z-index: 1; /* Stay on top */
-top: 0; /* Stay at the top */
-left: 0;
-background: var(--soc);
-color: var(--bg);
-box-shadow: var(--navshine);
-overflow-x: hidden; /* Disable horizontal scroll */
-padding-top: 5.1rem;
+  height: 100vh;
+  /* 100% Full-height */
+  width: 0vw;
+  /* 0 width - change this with JavaScript */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Stay on top */
+  top: 0;
+  /* Stay at the top */
+  left: 0;
+  background: var(--soc);
+  color: var(--bg);
+  box-shadow: var(--navshine);
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  padding-top: 5.1rem;
 }
 
 .effect {
-transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  transition: 0.5s;
+  /* 0.5 second transition effect to slide in the sidenav */
 }
 
 .sidenav ul {
@@ -181,15 +205,15 @@ transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
 
 /* The navigation menu links */
 .sidenav a {
-padding: .5rem .5rem .5rem 2rem;
-text-shadow: 0px 1px 0px rgba(255, 255, 255, .5);
-text-decoration: none;
-font-size: 1.5rem;
-color: var(--bg);
-background-color: var(--soc);
-box-shadow: var(--navshine);
-display: block;
-transition: 0.3s;
+  padding: .5rem .5rem .5rem 2rem;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, .5);
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: var(--bg);
+  background-color: var(--soc);
+  box-shadow: var(--navshine);
+  display: block;
+  transition: 0.3s;
 }
 
 .sidenav a:hover {
@@ -198,32 +222,33 @@ transition: 0.3s;
 
 
 .sidenav-toggle {
-position: relative;
-top: 0;
-margin-left: -2rem;
-z-index: 2;
-padding: .8rem 1rem .8rem 2.5rem;
-text-shadow: 0px 1px 0px rgba(255, 255, 255, .5);
-text-decoration: none;
-font-size: 2.5rem;
-color: var(--bg);
-background-color: var(--soc);
-box-shadow: var(--navbshine);
-display: block;
-transition: 0.3s;
-border-top-right-radius: 10pt 10pt;
-border-bottom-right-radius: 10pt 10pt;
+  position: relative;
+  top: 0;
+  margin-left: -2rem;
+  z-index: 2;
+  padding: .8rem 1rem .8rem 2.5rem;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, .5);
+  text-decoration: none;
+  font-size: 2.5rem;
+  color: var(--bg);
+  background-color: var(--soc);
+  box-shadow: var(--navbshine);
+  display: block;
+  transition: 0.3s;
+  border-top-right-radius: 10pt 10pt;
+  border-bottom-right-radius: 10pt 10pt;
 }
 
 .hoverpad {
   height: 100vw;
   width: 7vw;
 }
+
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #myContent {
   font-size: 3vw;
-  box-shadow: inset 25px 0px 25px -25px rgba(0,0,0,0.45), inset -25px 0px 25px -25px rgba(0,0,0,0.45);
-  -webkit-overflow-scrolling:touch;
+  box-shadow: inset 25px 0px 25px -25px rgba(0, 0, 0, 0.45), inset -25px 0px 25px -25px rgba(0, 0, 0, 0.45);
+  -webkit-overflow-scrolling: touch;
 }
 
 #myPages {
@@ -236,11 +261,12 @@ border-bottom-right-radius: 10pt 10pt;
 #myLoop {
   transition: margin-left .5s;
   font-size: 3vw;
-  }
+}
 
 .loop ul {
   list-style-type: none;
 }
+
 /*** STYLE SOCIAL BAR ***/
 /*** STYLE SOCIAL BAR ***/
 .icon-bar {
@@ -252,8 +278,9 @@ border-bottom-right-radius: 10pt 10pt;
   transform: translateY(-50%);
   border-top-left-radius: 10pt 10pt;
   border-bottom-left-radius: 10pt 10pt;
-  box-shadow: 1px 0px .5rem .2rem rgba(0,0,0,0.45);
+  box-shadow: 1px 0px .5rem .2rem rgba(0, 0, 0, 0.45);
 }
+
 .icon-bar a {
   display: block;
   text-align: center;
@@ -265,20 +292,22 @@ border-bottom-right-radius: 10pt 10pt;
   color: var(--bg);
   text-shadow: 0px 1px 0px rgba(255, 255, 255, .5);
 }
+
 .icon-bar a:hover {
   filter: brightness(80%);
 }
+
 .toptile {
   border-top-left-radius: 10pt 10pt;
 
 }
 
-.tile {
-  
-}
+.tile {}
+
 .bottomtile {
   border-bottom-left-radius: 10pt 10pt;
 }
+
 /*** STYLE SOCIAL BAR ***/
 
 /*** Syntax Highlighting ***/
@@ -287,140 +316,180 @@ pre {
   word-break: break-word;
 }
 
-.highlight code, .highlight pre {
-  color:#fdce93;
-  background-color:#3f3f3f;
-  }
-  
-  .highlight .hll {
-  background-color:#222;
-  }
-  
-  .highlight .err {
-  color:#e37170;
-  background-color:#3d3535;
-  }
-  
-  .highlight .k {
-  color:#f0dfaf;
-  }
-  
-  .highlight .p {
-  color:#41706f;
-  }
-  
-  .highlight .cs {
-  color:#cd0000;
-  font-weight:700;
-  }
-  
-  .highlight .gd {
-  color:#cd0000;
-  }
-  
-  .highlight .ge {
-  color:#ccc;
-  font-style:italic;
-  }
-  
-  .highlight .gr {
-  color:red;
-  }
-  
-  .highlight .go {
-  color:gray;
-  }
-  
-  .highlight .gs {
-  color:#ccc;
-  font-weight:700;
-  }
-  
-  .highlight .gu {
-  color:purple;
-  font-weight:700;
-  }
-  
-  .highlight .gt {
-  color:#0040D0;
-  }
-  
-  .highlight .kc {
-  color:#dca3a3;
-  }
-  
-  .highlight .kd {
-  color:#ffff86;
-  }
-  
-  .highlight .kn {
-  color:#dfaf8f;
-  font-weight:700;
-  }
-  
-  .highlight .kp {
-  color:#cdcf99;
-  }
-  
-  .highlight .kr {
-  color:#cdcd00;
-  }
-  
-  .highlight .ni {
-  color:#c28182;
-  }
-  
-  .highlight .ne {
-  color:#c3bf9f;
-  font-weight:700;
-  }
-  
-  .highlight .nn {
-  color:#8fbede;
-  }
-  
-  .highlight .vi {
-  color:#ffffc7;
-  }
-  
-  .highlight .c,.preview-zenburn .highlight .g,.preview-zenburn .highlight .cm,.preview-zenburn .highlight .cp,.preview-zenburn .highlight .c1 {
-  color:#7f9f7f;
-  }
-  
-  .highlight .l,.preview-zenburn .highlight .x,.preview-zenburn .highlight .no,.preview-zenburn .highlight .nd,.preview-zenburn .highlight .nl,.preview-zenburn .highlight .nx,.preview-zenburn .highlight .py,.preview-zenburn .highlight .w {
-  color:#ccc;
-  }
-  
-  .highlight .n,.preview-zenburn .highlight .nv,.preview-zenburn .highlight .vg {
-  color:#dcdccc;
-  }
-  
-  .highlight .o,.preview-zenburn .highlight .ow {
-  color:#f0efd0;
-  }
-  
-  .highlight .gh,.preview-zenburn .highlight .gp {
-  color:#dcdccc;
-  font-weight:700;
-  }
-  
-  .highlight .gi,.preview-zenburn .highlight .kt {
-  color:#00cd00;
-  }
-  
-  .highlight .ld,.preview-zenburn .highlight .s,.preview-zenburn .highlight .sb,.preview-zenburn .highlight .sc,.preview-zenburn .highlight .sd,.preview-zenburn .highlight .s2,.preview-zenburn .highlight .se,.preview-zenburn .highlight .sh,.preview-zenburn .highlight .si,.preview-zenburn .highlight .sx,.preview-zenburn .highlight .sr,.preview-zenburn .highlight .s1,.preview-zenburn .highlight .ss {
-  color:#cc9393;
-  }
-  
-  .highlight .m,.preview-zenburn .highlight .mf,.preview-zenburn .highlight .mh,.preview-zenburn .highlight .mi,.preview-zenburn .highlight .mo,.preview-zenburn .highlight .il {
-  color:#8cd0d3;
-  }
-  
-  .highlight .na,.preview-zenburn .highlight .nt {
-  color:#9ac39f;
-  }
-  
-  .highlight .nb,.preview-zenburn .highlight .nc,.preview-zenburn .highlight .nf,.preview-zenburn .highlight .bp,.preview-zenburn .highlight .vc {
-  color:#efef8f;
-  }
+.highlight code,
+.highlight pre {
+  color: #fc0;
+  background-color: #444;
+}
+
+.highlight .hll {
+  background-color: #222;
+}
+
+.highlight .err {
+  color: #e37170;
+  background-color: #3d3535;
+}
+
+.highlight .k {
+  color: #f0dfaf;
+}
+
+.highlight .p {
+  color: #41706f;
+}
+
+.highlight .cs {
+  color: #cd0000;
+  font-weight: 700;
+}
+
+.highlight .gd {
+  color: #cd0000;
+}
+
+.highlight .ge {
+  color: #ccc;
+  font-style: italic;
+}
+
+.highlight .gr {
+  color: red;
+}
+
+.highlight .go {
+  color: gray;
+}
+
+.highlight .gs {
+  color: #ccc;
+  font-weight: 700;
+}
+
+.highlight .gu {
+  color: purple;
+  font-weight: 700;
+}
+
+.highlight .gt {
+  color: #0040D0;
+}
+
+.highlight .kc {
+  color: #dca3a3;
+}
+
+.highlight .kd {
+  color: #ffff86;
+}
+
+.highlight .kn {
+  color: #dfaf8f;
+  font-weight: 700;
+}
+
+.highlight .kp {
+  color: #cdcf99;
+}
+
+.highlight .kr {
+  color: #cdcd00;
+}
+
+.highlight .ni {
+  color: #c28182;
+}
+
+.highlight .ne {
+  color: #c3bf9f;
+  font-weight: 700;
+}
+
+.highlight .nn {
+  color: #8fbede;
+}
+
+.highlight .vi {
+  color: #ffffc7;
+}
+
+.highlight .c,
+.preview-zenburn .highlight .g,
+.preview-zenburn .highlight .cm,
+.preview-zenburn .highlight .cp,
+.preview-zenburn .highlight .c1 {
+  color: #7f9f7f;
+}
+
+.highlight .l,
+.preview-zenburn .highlight .x,
+.preview-zenburn .highlight .no,
+.preview-zenburn .highlight .nd,
+.preview-zenburn .highlight .nl,
+.preview-zenburn .highlight .nx,
+.preview-zenburn .highlight .py,
+.preview-zenburn .highlight .w {
+  color: #ccc;
+}
+
+.highlight .n,
+.preview-zenburn .highlight .nv,
+.preview-zenburn .highlight .vg {
+  color: #dcdccc;
+}
+
+.highlight .o,
+.preview-zenburn .highlight .ow {
+  color: #f0efd0;
+}
+
+.highlight .gh,
+.preview-zenburn .highlight .gp {
+  color: #dcdccc;
+  font-weight: 700;
+}
+
+.highlight .gi,
+.preview-zenburn .highlight .kt {
+  color: #00cd00;
+}
+
+.highlight .ld,
+.preview-zenburn .highlight .s,
+.preview-zenburn .highlight .sb,
+.preview-zenburn .highlight .sc,
+.preview-zenburn .highlight .sd,
+.preview-zenburn .highlight .s2,
+.preview-zenburn .highlight .se,
+.preview-zenburn .highlight .sh,
+.preview-zenburn .highlight .si,
+.preview-zenburn .highlight .sx,
+.preview-zenburn .highlight .sr,
+.preview-zenburn .highlight .s1,
+.preview-zenburn .highlight .ss {
+  color: #cc9393;
+}
+
+.highlight .m,
+.preview-zenburn .highlight .mf,
+.preview-zenburn .highlight .mh,
+.preview-zenburn .highlight .mi,
+.preview-zenburn .highlight .mo,
+.preview-zenburn .highlight .il {
+  color: #8cd0d3;
+}
+
+.highlight .na,
+.preview-zenburn .highlight .nt {
+  color: #9ac39f;
+}
+
+.highlight .nb,
+.preview-zenburn .highlight .nc,
+.preview-zenburn .highlight .nf,
+.preview-zenburn .highlight .bp,
+.preview-zenburn .highlight .vc {
+  color: #efef8f;
+}
+
 /*** Syntax Highlighting ***/
