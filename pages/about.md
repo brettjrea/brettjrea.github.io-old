@@ -9,14 +9,6 @@ navigation_weight: 2
 
 About me.
 
-{% gist 56847c8edd4f18352cf0e43dd2673d5f %}
-
-
-```html
-<code>
-```
-
-
 Lorem Ipsum
 "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
 "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
