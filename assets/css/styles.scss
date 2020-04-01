@@ -323,10 +323,10 @@ pre {
   word-break: break-word;
 }
 
-.highlight code,
-.highlight pre {
+
+.highlighter-rouge, .highlight code, .highlight pre {
   color: #fc0;
-  background-color: #444;
+  background-color: #555;
 }
 
 .highlight .hll {
