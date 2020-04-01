@@ -1,6 +1,6 @@
 [submodule "repos/Windows_Microsoft_Terminal"]
 	path = repos/Windows_Microsoft_Terminal
-	url = git@github.com:brettjrea/Windows_Microsoft_Terminal.git
+	url = https://github.com/brettjrea/Windows_Microsoft_Terminal.git
 [submodule "repos/Windows_WSL_Debian"]
 	path = repos/Windows_WSL_Debian
-	url = git@github.com:brettjrea/Windows_WSL_Debian.git
+	url = https://github.com/brettjrea/Windows_WSL_Debian.git
