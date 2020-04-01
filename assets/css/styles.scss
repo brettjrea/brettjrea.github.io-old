@@ -318,6 +318,20 @@ a {
 /*** STYLE SOCIAL BAR ***/
 
 /*** Syntax Highlighting ***/
+kbd {
+  border-style: outset;
+  border-width: 2px;
+  border-color: #999999;
+  border-radius: 6px;
+  padding: 3px;
+  font-size: 75%;
+  font-weight: 475;
+  background: var(--soc);
+  color: var(--bg);
+  margin: 2px;
+  white-space: nowrap;
+}
+
 pre {
   white-space: pre-wrap;
   word-break: break-word;
