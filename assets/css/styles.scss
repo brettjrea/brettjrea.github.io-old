@@ -220,6 +220,9 @@ a {
   backdrop-filter: brightness(80%);
 }
 
+.dropdown-container {
+  display: none;
+}
 
 .sidenav-toggle {
   position: relative;
@@ -237,10 +240,6 @@ a {
   transition: 0.3s;
   border-top-right-radius: 10pt 10pt;
   border-bottom-right-radius: 10pt 10pt;
-}
-
-.dropdown-container {
-  display: none;
 }
 
 .hoverpad {
