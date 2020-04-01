@@ -2,7 +2,7 @@
 title: Skills
 layout: page
 permalink: /skills/
-navigation_weight: 4
+navigation_weight: 5
 ---
 
 ### Skills
