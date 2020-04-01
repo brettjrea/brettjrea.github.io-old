@@ -1,7 +1,7 @@
 ---
 title: Home
 layout: page
-permalink: /
+permalink: /home/
 navigation_weight: 1
 ---
 # brettjrea.github.io
