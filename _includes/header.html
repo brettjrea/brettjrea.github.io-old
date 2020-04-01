@@ -1,17 +1,17 @@
 <header>
-<nav id="mySidenav" class="sidenav effect" style="width: 0vw;">
-  <ul>
-    {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
-    {% for p in navigation_pages %}
+  <nav id="mySidenav" class="sidenav effect" style="width: 0vw;">
+    <ul>
+      {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
+      {% for p in navigation_pages %}
       {% if p.navigation_weight %}
-        <li>
-          <a href="{{ p.url }}" {% if p.url == page.url %}class="active"{% endif %}>
-            {{ p.title }}
-          </a>
-        </li>
+      <li>
+        <a href="{{ p.url }}" {% if p.url == page.url %}class="active" {% endif %}>
+          {{ p.title }}
+        </a>
+      </li>
       {% endif %}
-    {% endfor %}
-  </ul>
-</nav> 
-{% include social.html %}
+      {% endfor %}
+    </ul>
+  </nav>
+  {% include social.html %}
 </header>
