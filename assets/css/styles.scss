@@ -216,7 +216,7 @@ a {
   transition: 0.3s;
 }
 
-.sidenav a:hover .dropdown-btn:hover {
+.sidenav a:hover, .dropdown-btn:hover {
   backdrop-filter: brightness(80%);
 }
 
