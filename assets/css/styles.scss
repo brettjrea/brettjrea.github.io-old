@@ -265,6 +265,13 @@ a {
   margin-right: 6vw;
 }
 
+#myRepos {
+  transition: margin-left .5s;
+  font-size: 1rem;
+  margin-left: 6vw;
+  margin-right: 6vw;
+}
+
 #myLoop {
   transition: margin-left .5s;
   font-size: 3vw;
@@ -324,7 +331,7 @@ kbd {
   border-color: #999999;
   border-radius: 6px;
   padding: 3px;
-  font-size: 75%;
+  font-size: 1rem;
   font-weight: 475;
   background: var(--soc);
   color: var(--bg);
