@@ -219,6 +219,8 @@ a {
 
 .sidenav a:hover, .dropdown-btn:hover {
   backdrop-filter: brightness(80%);
+  cursor: hand;
+  cursor: pointer;
 }
 
 .dropdown-container {
