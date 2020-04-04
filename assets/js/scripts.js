@@ -13,10 +13,12 @@ function themeChange(){
             transition();
             document.documentElement.setAttribute('data-theme', 'dark');
             localStorage.setItem("theme", "dark");
+            localStorage.setItem("checkbox", "checked");
         } else {
             transition();
             document.documentElement.setAttribute('data-theme','light');
             localStorage.setItem("theme", "light");
+            localStorage.setItem("checkbox", "unchecked");
         }
     });
 
