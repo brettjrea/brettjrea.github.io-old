@@ -3,33 +3,6 @@
         // If localStorage is supported by the browser
         if (typeof(Storage) !== "undefined") {
             // If we need to open the bar
-            if(localStorage.getItem("sidebar") == "opened"){
-                // Remove class with transition from the 'sidebar' and the 'main'
-                document.getElementById("mySidenav").classList.remove("effect");
-                document.getElementById("myContent").classList.remove("effect");
-                // Open the bar
-                document.getElementById("mySidenav").style.width = "20vw";
-                document.getElementById("myContent").style.marginLeft = "20vw";
-                // Add the transition class again
-                document.getElementById("mySidenav").classList.add("effect");
-                document.getElementById("myContent").classList.add("effect");
-            }
-        }
-        // If localStorage is supported by the browser
-        if (typeof(Storage) !== "undefined") {
-            // If we need to open the bar
-            if(localStorage.getItem("theme") == "light"){
-                document.documentElement.setAttribute('data-theme','light');
-            }
-            else 
-            {
-                document.documentElement.setAttribute('data-theme','dark');
-            }       
-        }
-
-        // If localStorage is supported by the browser
-        if (typeof(Storage) !== "undefined") {
-            // If we need to open the bar
             if(localStorage.getItem("checkbox") == "checked"){
                 document.getElementById("checkbox1").checked = true;
             }

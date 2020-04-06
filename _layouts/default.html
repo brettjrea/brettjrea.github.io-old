@@ -1,5 +1,18 @@
 <!doctype html>
 <html class="preload-transitions" class data-theme="light" lang="en">
+  <script type="text/javascript">
+    // If localStorage is supported by the browser
+    if (typeof(Storage) !== "undefined") {
+        // If we need to open the bar
+        if(localStorage.getItem("theme") == "light"){
+            document.documentElement.setAttribute('data-theme','light');
+        }
+        else 
+        {
+            document.documentElement.setAttribute('data-theme','dark');
+        }       
+    }
+  </script>
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
@@ -10,7 +23,16 @@
   <body>
       {% include header.html %}
     <section id="myContent" class="grid-container effect" style="margin-left: 0vw;">
-
+      <script type="text/javascript">
+        // If localStorage is supported by the browser
+        if (typeof(Storage) !== "undefined") {
+            // If we need to open the bar
+            if(localStorage.getItem("sidebar") == "opened"){
+                // Open the bar
+                document.getElementById("myContent").style.marginLeft = "20vw";
+            }
+        }
+      </script>
     <div class="grid-item item1">
     <span onclick="toggleNav()" class="sidenav-toggle fas fa-bars fa-fw"></span> 
     </div>
@@ -27,9 +49,9 @@
     <div onmouseover="toggleNav()" class="hoverpad grid-item item3">
     </div>
 
-    <div class="grid-item item4">
+    <seection id="myHome" class="grid-item item4">
       {{ content }}
-    </div>
+    </section>
        
     </section>
       {% include social.html %}

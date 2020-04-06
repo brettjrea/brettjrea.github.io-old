@@ -258,7 +258,6 @@ a {
   background-color: var(--soc);
   box-shadow: var(--navbshine);
   display: block;
-  transition: 0.3s;
   border-top-right-radius: 10pt 10pt;
   border-bottom-right-radius: 10pt 10pt;
 }
@@ -275,22 +274,25 @@ a {
   -webkit-overflow-scrolling: touch;
 }
 
+#myHome {
+  font-size: 3vw;
+  margin-left: 6vw;
+  margin-right: 6vw;
+}
+
 #myPages {
-  transition: margin-left .5s;
   font-size: 3vw;
   margin-left: 6vw;
   margin-right: 6vw;
 }
 
 #myRepos {
-  transition: margin-left .5s;
   font-size: 1rem;
   margin-left: 6vw;
   margin-right: 6vw;
 }
 
 #myLoop {
-  transition: margin-left .5s;
   font-size: 3vw;
 }
 
