@@ -100,8 +100,6 @@ html.transition *:after {
   bottom: 0;
   background-color: var(--togbg);
   box-shadow: var(--togbgshine);
-  -webkit-transition: .4s;
-  transition: .4s;
 }
 
 .slider:before {
@@ -113,8 +111,6 @@ html.transition *:after {
   bottom: 5%;
   background-color: var(--togswitch);
   box-shadow: var(--togswitchshine);
-  -webkit-transition: .4s;
-  transition: .4s;
 }
 
 input:checked+.slider {
