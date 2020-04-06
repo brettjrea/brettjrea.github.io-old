@@ -4,6 +4,26 @@
 --- 
 
 @import url('https://fonts.googleapis.com/css?family=Baloo+2&display=swap');
+// Note the * after the class name. This just selects everything after the initial
+// class definition
+.preload-transitions * {
+  // Dry this up a bit with SCSS variable
+  $null-transition: none !important;
+
+  -webkit-transition: $null-transition;
+  -moz-transition: $null-transition;
+  -ms-transition: $null-transition;
+  -o-transition: $null-transition;
+  transition: $null-transition;
+}
+
+.effect {
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
 
 html,
 html[data-theme="light"],
@@ -194,11 +214,6 @@ a {
   overflow-x: hidden;
   /* Disable horizontal scroll */
   padding-top: 5.1rem;
-}
-
-.effect {
-  transition: 0.5s;
-  /* 0.5 second transition effect to slide in the sidenav */
 }
 
 .sidenav ul {
