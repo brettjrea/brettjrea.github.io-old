@@ -1,0 +1,10 @@
+<script type="text/javascript">
+    // If localStorage is supported by the browser
+    if (typeof(Storage) !== "undefined") {
+        // If we need to open the bar
+        if(localStorage.getItem("sidebar") == "opened"){
+            // Open the bar
+            document.getElementById("mySidenav").style.width = "20vw";
+        }
+    }
+  </script>

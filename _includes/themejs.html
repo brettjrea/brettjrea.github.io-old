@@ -1,0 +1,13 @@
+<script type="text/javascript">
+    // If localStorage is supported by the browser
+    if (typeof(Storage) !== "undefined") {
+        // If we need to open the bar
+        if(localStorage.getItem("theme") == "light"){
+            document.documentElement.setAttribute('data-theme','light');
+        }
+        else 
+        {
+            document.documentElement.setAttribute('data-theme','dark');
+        }       
+    }
+  </script>

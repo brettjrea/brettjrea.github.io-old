@@ -1,54 +1,42 @@
 <!doctype html>
 <html class="preload-transitions" class data-theme="light" lang="en">
-  <script type="text/javascript">
-    // If localStorage is supported by the browser
-    if (typeof(Storage) !== "undefined") {
-        // If we need to open the bar
-        if(localStorage.getItem("theme") == "light"){
-            document.documentElement.setAttribute('data-theme','light');
-        }
-        else 
-        {
-            document.documentElement.setAttribute('data-theme','dark');
-        }       
-    }
-  </script>
-  <head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}" />
-    <script src="https://kit.fontawesome.com/4e59dcedf0.js" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/turbolinks/5.2.0/turbolinks.js"></script>
-  </head>
-  <body>
-      {% include header.html %}
-    <section id="myContent" class="grid-container effect" style="margin-left: 0vw;">
-      <script type="text/javascript">
-        // If localStorage is supported by the browser
-        if (typeof(Storage) !== "undefined") {
-            // If we need to open the bar
-            if(localStorage.getItem("sidebar") == "opened"){
-                // Open the bar
-                document.getElementById("myContent").style.marginLeft = "20vw";
-            }
-        }
-      </script>
+
+{% include themejs.html %}
+
+<head>
+
+  {% include headcontent.html %}
+
+</head>
+
+<body>
+
+  {% include mysidenav.html %}
+
+  <section id="myContent" class="grid-container effect" style="margin-left: 0vw;">
+
+    {% include mycontentjs.html %}
+
     <div class="grid-item item1">
-    <span onclick="toggleNav()" class="sidenav-toggle fas fa-bars fa-fw"></span> 
+      {% include navtab.html %}
     </div>
 
     <div class="grid-item item2">
       {% include switch.html %}
 
-    <div onmouseover="toggleNav()" class="hoverpad grid-item item3">
-    </div>
+      <div onmouseover="toggleNav()" class="hoverpad grid-item item3">
+      </div>
 
-    <section class="grid-item item4">
-      {{ content }}
-    </section>
-       
-    </section>
-      {% include social.html %}
-      {% include footer.html %}
-  </body>
+      <section class="grid-item item4">
+        {{ content }}
+      </section>
+
+  </section>
+
+  {% include social.html %}
+
+  {% include footer.html %}
+
+</body>
+
 </html>
