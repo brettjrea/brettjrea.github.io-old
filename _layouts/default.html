@@ -1,28 +1,28 @@
 <!doctype html>
 <html class="preload-transitions" class data-theme="light" lang="en">
 
-{% include themejs.html %}
+{% include script-detecttheme.html %}
 
 <head>
 
-  {% include headcontent.html %}
+  {% include content-head.html %}
 
 </head>
 
 <body>
 
-  {% include mysidenav.html %}
+  {% include part-thesidenav.html %}
 
-  <section id="myContent" class="grid-container effect" style="margin-left: 0vw;">
+  <section id="theContent" class="grid-container effect" style="margin-left: 0vw;">
 
-    {% include mycontentjs.html %}
+    {% include script-thecontent-ml.html %}
 
     <div class="grid-item item1">
-      {% include navtab.html %}
+      <span onclick="toggleNav()" class="effect sidenav-toggle fas fa-bars fa-fw"></span>
     </div>
 
     <div class="grid-item item2">
-      {% include switch.html %}
+      {% include part-themetoggle.html %}
 
       <div onmouseover="toggleNav()" class="hoverpad grid-item item3">
       </div>
@@ -33,9 +33,11 @@
 
   </section>
 
-  {% include social.html %}
+  {% include part-socialtab.html %}
 
-  {% include footer.html %}
+  <footer>
+    {% include content-foot.html %}
+  </footer>
 
 </body>
 

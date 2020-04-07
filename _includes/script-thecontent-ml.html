@@ -1,0 +1,10 @@
+<script type="text/javascript">
+    // If localStorage is supported by the browser
+    if (typeof (Storage) !== "undefined") {
+        // If we need to open the bar
+        if (localStorage.getItem("sidenav") == "opened") {
+            // Open the bar
+            document.getElementById("theContent").style.marginLeft = "20vw";
+        }
+    }
+</script>

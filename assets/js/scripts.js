@@ -55,25 +55,25 @@ for (i = 0; i < dropdown.length; i++) {
 
 // Toggle sidenav
 function toggleNav() {
-    var x = document.getElementById("mySidenav").style;
-    var y = document.getElementById("myContent").style;
+    var x = document.getElementById("theSidenav").style;
+    var y = document.getElementById("theContent").style;
     
     if (x.width == "0vw")
     {
         x.width = "20vw";
         y.marginLeft = "20vw";
-        localStorage.setItem("sidebar", "opened");
+        localStorage.setItem("sidenav", "opened");
     }
     else 
     {
         x.width = "0vw";
         y.marginLeft = "0vw";
-        localStorage.setItem("sidebar", "closed");
+        localStorage.setItem("sidenav", "closed");
     }
 }
 
 // Touch sidenav
-var container = document.querySelector("#myContent");
+var container = document.querySelector("#theContent");
 
     container.addEventListener("touchstart", startTouch, false);
     container.addEventListener("touchmove", moveTouch, false);
@@ -106,15 +106,15 @@ var container = document.querySelector("#myContent");
         // sliding horizontally
         if (diffX > 0) {
           // swiped left
-          document.getElementById("mySidenav").style.width = "0vw";
-          document.getElementById("myContent").style.marginLeft = "0vw";
-          localStorage.setItem("sidebar", "closed");
+          document.getElementById("theSidenav").style.width = "0vw";
+          document.getElementById("theContent").style.marginLeft = "0vw";
+          localStorage.setItem("sidenav", "closed");
           console.log("swiped left");
         } else {
           // swiped right
-          document.getElementById("mySidenav").style.width = "20vw";
-          document.getElementById("myContent").style.marginLeft = "20vw";
-          localStorage.setItem("sidebar", "opened");
+          document.getElementById("theSidenav").style.width = "20vw";
+          document.getElementById("theContent").style.marginLeft = "20vw";
+          localStorage.setItem("sidenav", "opened");
           console.log("swiped right");
         }  
       } 
