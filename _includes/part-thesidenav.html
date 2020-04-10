@@ -12,10 +12,8 @@
     {% endfor %}
   </ul>
 
-  <span class="dropdown-btn">Guides
-    <i class="fa fa-caret-down"></i>
-  </span>
-  <div class="dropdown-container">
+  <span class="dropdown-btn">Guides<i class="fa fa-caret-down"></i></span>
+<div class="dropdown-container">
     <ul>
       {% assign repository_pages = site.html_pages | sort: 'repository_weight' %}
       {% for p in repository_pages %}
