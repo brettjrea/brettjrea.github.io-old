@@ -79,10 +79,11 @@ html.transition *:after {
 
 /*Content*/
 body {
-  background-color: var(--bg);
-  font-family: 'Baloo 2', cursive, Arial, Helvetica, sans-serif;
+  height: 100%;
   margin: 0 !important;
   padding: 0 !important;
+  background-color: var(--bg);
+  font-family: 'Baloo 2', cursive, Arial, Helvetica, sans-serif;
 }
 
 h1,
