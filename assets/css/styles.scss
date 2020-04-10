@@ -277,13 +277,13 @@ input:checked+.slider:before {
 }
 
 #theContent {
-  font-size: 3vw;
   box-shadow: inset 25px 0px 25px -25px rgba(0, 0, 0, 0.45), inset -25px 0px 25px -25px rgba(0, 0, 0, 0.45);
   -webkit-overflow-scrolling: touch;
 }
 
 #myHome {
-  font-size: 3vw;
+  height: 100vh;
+  font-size: 2rem;
   margin-left: 6vw;
   margin-right: 6vw;
 }
@@ -296,19 +296,21 @@ input:checked+.slider:before {
 }
 
 #myPosts {
-  font-size: 3vw;
+  height: 100vh;
+  font-size: 2rem;
   margin-left: 6vw;
   margin-right: 6vw;
 }
 
 #myRepos {
-  font-size: 1rem;
+  height: 100vh;
+  font-size: 2rem;
   margin-left: 6vw;
   margin-right: 6vw;
 }
 
 #myLoop {
-  font-size: 3vw;
+  font-size: 2rem;
 }
 
 .loop ul {
