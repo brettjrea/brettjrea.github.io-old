@@ -282,21 +282,21 @@ input:checked+.slider:before {
 }
 
 #myHome {
-  height: 100vh;
+  height: 100%;
   font-size: 2rem;
   margin-left: 6vw;
   margin-right: 6vw;
 }
 
 #myPages {
-  height: 100vh;
+  height: 100%;
   font-size: 2rem;
   margin-left: 6vw;
   margin-right: 6vw;
 }
 
 #myPosts {
-  height: 100vh;
+  height: 100%;
   font-size: 2rem;
   margin-left: 6vw;
   margin-right: 6vw;
@@ -304,13 +304,13 @@ input:checked+.slider:before {
 
 #myRepos {
   height: 100%;
-  font-size: 3rem;
+  font-size: 2rem;
   margin-left: 6vw;
   margin-right: 6vw;
 }
 
 #myLoop {
-  height: 100vh;
+  height: 100%;
   font-size: 2rem;
   margin-left: 6vw;
   margin-right: 6vw;
@@ -367,7 +367,7 @@ kbd {
   border-color: #999999;
   border-radius: 3px;
   padding: 3px;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 475;
   background: var(--soc);
   color: var(--bg);
