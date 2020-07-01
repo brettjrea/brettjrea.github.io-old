@@ -4,6 +4,3 @@
 [submodule "repos/Windows_WSL_Debian"]
 	path = repos/Windows_WSL_Debian
 	url = https://github.com/brettjrea/Windows_WSL_Debian.git
-[submodule "repos/Windows_WSL_Debian_Jekyll"]
-	path = repos/Windows_WSL_Debian_Jekyll
-	url = https://github.com/brettjrea/Windows_WSL_Debian_Jekyll.git
